@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Added a GPT-generated sepia laboratory cover image to both README entrypoints.
+- Documented the reusable local-asset and placement rules for README cover images.
 - Added a story-first pull request template and a literature-reference standard.
 - Required claim-to-source mapping for scientific, research, and conceptual PRs.
 

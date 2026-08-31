@@ -104,6 +104,7 @@ evals/evals.json                          # 行为压力案例
 docs/related-projects.md                  # 公开设计对比
 .github/PULL_REQUEST_TEMPLATE.md          # 以故事为先的 PR 结构和文献要求
 docs/pull-request-story-and-references.md # PR 行文与引用规范
+docs/readme-visual-cover-standard.md      # README 生成卷首图规范
 ```
 
 ## 安装
