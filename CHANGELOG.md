@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-08-31
+
+- Centered the flag-and-bar language switcher and evidence-backed opening badge row in both README files.
+- Clarified that `README.md` is English-only and `README.zh.md` is Chinese-only while keeping their structures aligned.
+
 ## 0.1.1 - 2026-08-31
 
 - Added an angle-selection pass so the most generative and beautiful direction is stated before rival explanations.

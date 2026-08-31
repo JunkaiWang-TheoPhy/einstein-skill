@@ -1,8 +1,13 @@
 # Einstein Skill
 
-🇺🇸 [English](README.md) | 🇨🇳 [中文](README.zh.md)
+<p align="center">
+  <a href="README.md">🇺🇸 English</a> |
+  <a href="README.zh.md">🇨🇳 中文</a>
+</p>
 
-[![许可证：AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="许可证：AGPL-3.0"></a>
+</p>
 
 ## 简介
 
@@ -78,4 +83,4 @@ git clone https://github.com/JunkaiWang-TheoPhy/einstein-skill.git \
 
 ## 版本与许可证
 
-版本为 `0.1.1`。本项目采用 [GNU Affero General Public License v3.0](LICENSE) 许可。
+版本为 `0.1.2`。本项目采用 [GNU Affero General Public License v3.0](LICENSE) 许可。

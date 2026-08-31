@@ -1,8 +1,13 @@
 # Einstein Skill
 
-🇺🇸 [English](README.md) | 🇨🇳 [中文](README.zh.md)
+<p align="center">
+  <a href="README.md">🇺🇸 English</a> |
+  <a href="README.zh.md">🇨🇳 中文</a>
+</p>
 
-[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License: AGPL-3.0"></a>
+</p>
 
 ## Overview
 
@@ -78,4 +83,4 @@ The skill improves the search process for concepts; it cannot prove that a conce
 
 ## Version and License
 
-Version `0.1.1`. Distributed under the [GNU Affero General Public License v3.0](LICENSE).
+Version `0.1.2`. Distributed under the [GNU Affero General Public License v3.0](LICENSE).
