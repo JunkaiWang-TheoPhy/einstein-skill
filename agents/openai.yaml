@@ -1,7 +1,7 @@
 interface:
   display_name: "Einstein Skill"
   short_description: "Invent principles through thought experiments"
-  default_prompt: "Use $einstein to find a hidden assumption, run a thought experiment, and generate competing scientific concepts before searching prior work."
+    default_prompt: "Use $einstein to compare angles, find the most beautiful local-to-global bridge, state a bold conjecture, and stress it before searching prior work."
 
 policy:
   allow_implicit_invocation: true

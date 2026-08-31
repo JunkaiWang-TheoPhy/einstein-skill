@@ -1,6 +1,6 @@
 {
   "skill": "einstein",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "cases": [
     {
       "id": "fracton-horava",
@@ -47,6 +47,24 @@
       "must_not": [
         "treat a failed exact-phrase search as proof of originality",
         "silently rewrite prior art as the user's discovery"
+      ]
+    },
+    {
+      "id": "local-global-aesthetic",
+      "prompt": "我已经看出这个问题有多个分析角度。最有意思的是：为什么 internal global charge spectrum 会和 spacetime representation 有关系？我想从局域获得整体理解。稳健分析可以保留，但我更在意一个足够优美、即使可能出错的理论外推。",
+      "must": [
+        "scan multiple angles and select the most generative one",
+        "make a local-to-global bridge explicit",
+        "state one elegant bold conjecture before rival explanations",
+        "separate robust analysis from extrapolation risk",
+        "explain beauty as compression or unification rather than proof",
+        "name an independent consequence and a failure boundary"
+      ],
+      "must_not": [
+        "flatten the response into three equally weighted generic candidates",
+        "hedge away the central conjecture because it may be wrong",
+        "present the local-to-global bridge as an established theorem",
+        "treat unusual wording as evidence of originality"
       ]
     }
   ]

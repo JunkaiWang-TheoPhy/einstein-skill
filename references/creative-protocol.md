@@ -2,6 +2,10 @@
 
 This reference is for the `invention`, `thought-experiment`, and `paradigm` modes. It is intentionally placed after the main skill so ordinary research requests do not load a long ideation script.
 
+## The First Decision: What Kind of Risk Is Wanted?
+
+Before inventing concepts, read the user's posture. A request for the most beautiful, elegant, or “sexy” explanation is asking for a theory choice, not a neutral catalog. An explicit willingness to be wrong authorizes a bold conjecture, provided the conjecture is labeled and its failure mode is visible. Keep confidence in the facts, the inference, and the conjecture separate.
+
 ## What Counts as a Conceptual Leap
 
 A candidate is conceptually interesting when it changes the unit in which the problem is posed. The change may concern:
@@ -18,7 +22,18 @@ Combining two named topics is not enough. A candidate must make at least one old
 
 ## Session Sequence
 
-### Phase A: The Tension
+### Phase A: The Angles
+
+List the plausible readings of the problem in a few words. Select the one that offers the strongest combination of:
+
+- explanatory compression;
+- a bridge between representations, scales, or domains;
+- generative follow-up questions;
+- a principled, explicit risk.
+
+The point is to find the intellectually alive direction before expanding the answer. Do not use a flat list as a substitute for judgment.
+
+### Phase B: The Tension
 
 Write four short lists:
 
@@ -29,7 +44,23 @@ Write four short lists:
 
 Do not turn a user's intuition into a fact. Mark it as `user intuition` until supported.
 
-### Phase B: The Thought Experiment
+### Phase C: The Local-to-Global Bridge
+
+Ask whether a local or internal structure could explain a global or spacetime-level structure. Fill this card before choosing terminology:
+
+```text
+Local datum:
+Global structure:
+Candidate bridge:
+Why the bridge is surprising:
+What it would unify:
+Where extrapolation enters:
+Independent consequence:
+```
+
+The bridge may be wrong. That is acceptable in a theory pass. It is not acceptable to hide its risk or present it as a known result.
+
+### Phase D: The Thought Experiment
 
 Use one minimal scene. Good scenes usually have:
 
@@ -51,9 +82,21 @@ Useful transformations:
 | Change scale | Does a microscopic rule become an infrared principle, or vice versa? |
 | Swap observer and system | Which statements survive a change of description? |
 
-### Phase C: Candidate Generation
+### Phase E: The Elegant Conjecture
 
-Generate three candidates with different changed primitives. Use this card for each:
+Write one compact principle before writing rivals. Judge it by:
+
+1. **Compression:** one idea organizes several facts.
+2. **Bridge:** it explains a relation between descriptions that was previously accidental.
+3. **Inevitability:** it makes the old separation look like a consequence of a deeper structure.
+4. **Generativity:** it produces independent questions or predictions.
+5. **Audacity with a boundary:** it takes a real risk and names how it can fail.
+
+Beauty is a discovery heuristic. It is not evidence.
+
+### Phase F: Candidate Generation
+
+After the main conjecture is clear, generate two or three rivals with different changed primitives. Use this card for each:
 
 ```text
 Candidate name:
@@ -71,7 +114,7 @@ Status: candidate / prior-art risk / discarded
 
 The candidates should differ in kind. For example, do not return three different names for “add a dynamical foliation.” Return one ontology change, one process change, and one scale or duality change.
 
-### Phase D: Selection by Generativity
+### Phase G: Selection by Generativity
 
 Ask which candidate:
 
@@ -83,9 +126,9 @@ Ask which candidate:
 
 Do not optimize for immediate implementation, likely reviewer approval, or rhetorical novelty before the concept is clear.
 
-### Phase E: Human Grounding
+### Phase H: Human Grounding
 
-Ask one question. Prefer questions of this form:
+Ask at most one question, and only when the user's taste has not already been supplied. Prefer questions of this form:
 
 - Which tension is worth preserving if the idea becomes technically difficult?
 - Which primitive are you willing to treat as emergent?
@@ -94,7 +137,7 @@ Ask one question. Prefer questions of this form:
 
 The user supplies the taste that the agent cannot infer from citations alone.
 
-### Phase F: Prior-Art Audit
+### Phase I: Prior-Art Audit
 
 Once the user selects or materially sharpens a candidate, perform a search matrix:
 

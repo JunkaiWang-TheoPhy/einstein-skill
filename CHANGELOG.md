@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 - 2026-08-31
+
+- Added an angle-selection pass so the most generative and beautiful direction is stated before rival explanations.
+- Added a local-to-global bridge scaffold for connections between internal or local data and global, geometric, spacetime, or representation-level structure.
+- Added explicit high-risk theory posture, with robust interpretation separated from conjectural extrapolation.
+- Added an aesthetic local-to-global pressure case to the behavioral evaluations.
+
 ## 0.1.0 - 2026-08-31
 
 - Initial public release of Einstein Skill.

@@ -6,7 +6,7 @@
 
 ## Overview
 
-Einstein Skill is a concept-invention workflow for scientific and difficult conceptual problems. It helps an agent look for the hidden primitive behind a question, construct a thought experiment, change the problem's ontology, generate rival principles, and identify consequences before prior-art research begins.
+Einstein Skill is a concept-invention workflow for scientific and difficult conceptual problems. It first compares the available angles, selects the most beautiful and generative one, tests whether a local fact can organize a global structure, and then helps an agent construct a thought experiment, change the problem's ontology, state a bold conjecture, and identify consequences before prior-art research begins.
 
 This is not an Einstein impersonation prompt. It does not guarantee originality, physical truth, or historical equivalence to Einstein's work. It is a structured way to create ambitious candidates without confusing a new phrase with a new concept.
 
@@ -23,23 +23,29 @@ run a thought experiment, and propose genuinely different conceptual directions.
 
 ```text
 phenomenon or tension
+  -> angle scan
+  -> most generative / beautiful angle
+  -> local-to-global bridge
   -> hidden primitive
   -> thought experiment
-  -> changed ontology or principle
-  -> rival concepts
+  -> bold conjecture
+  -> rival explanations
   -> consequences and falsifiers
   -> prior-art audit
   -> human choice and revision
 ```
 
-The creative pass comes before literature anchoring by default. Once a candidate exists, the skill searches exact and neighboring terminology, historical formulations, related fields, authors, groups, and citation paths. It labels the result as `unverified`, `near-prior`, `distinct-so-far`, or `absorbed-by-prior-art` rather than claiming that nobody has proposed it.
+The creative pass comes before literature anchoring by default. A beautiful conjecture is a discovery heuristic, not evidence. Robust analysis and risky extrapolation remain separate. Once a candidate exists, the skill searches exact and neighboring terminology, historical formulations, related fields, authors, groups, and citation paths. It labels the result as `unverified`, `near-prior`, `distinct-so-far`, or `absorbed-by-prior-art` rather than claiming that nobody has proposed it.
 
 ## What It Forces the Agent to Do
 
 - Question an object, relation, locality, symmetry, scale, boundary, observer, or background that the original problem treats as fixed.
-- Generate three candidates that differ in changed primitives, rather than three versions of one slogan.
+- Compare multiple angles and state which one has the strongest compression, bridge, and generative reach.
+- Test whether a local, internal, microscopic, or algebraic datum can organize a global, geometric, spacetime, or representation-level structure.
+- State one central conjecture before generating two or three rival explanations.
 - State what each candidate explains, what it predicts, and how it could fail.
-- Ask the human for one piece of physical taste or risk preference.
+- Keep robust interpretation separate from the explicit risk of a bold extrapolation.
+- Ask the human for physical taste only when it has not already been supplied.
 - Preserve discarded candidates when they clarify a boundary.
 - Return to the concept after a serious objection instead of adding decorative jargon.
 
@@ -72,4 +78,4 @@ The skill improves the search process for concepts; it cannot prove that a conce
 
 ## Version and License
 
-Version `0.1.0`. Distributed under the [GNU Affero General Public License v3.0](LICENSE).
+Version `0.1.1`. Distributed under the [GNU Affero General Public License v3.0](LICENSE).
