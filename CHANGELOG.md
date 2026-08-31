@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a GPT-generated sepia laboratory cover image to both README entrypoints.
 - Added a story-first pull request template and a literature-reference standard.
 - Required claim-to-source mapping for scientific, research, and conceptual PRs.
 

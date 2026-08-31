@@ -9,6 +9,10 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License: AGPL-3.0"></a>
 </p>
 
+<p align="center">
+  <img src="assets/einstein-laboratory-banner.png" alt="Albert Einstein studying a test tube in a sepia laboratory">
+</p>
+
 ## The Story
 
 ### The tension
@@ -91,6 +95,7 @@ The creative pass comes before literature anchoring by default. A beautiful conj
 ## Files
 
 ```text
+assets/einstein-laboratory-banner.png # Generated README cover image
 SKILL.md                                  # Runtime workflow
 agents/openai.yaml                        # Codex metadata
 references/creative-protocol.md           # Detailed ideation procedure

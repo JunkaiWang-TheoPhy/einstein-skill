@@ -9,6 +9,10 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="许可证：AGPL-3.0"></a>
 </p>
 
+<p align="center">
+  <img src="assets/einstein-laboratory-banner.png" alt="棕褐色实验室中观察试管的 Albert Einstein">
+</p>
+
 ## 这件事为什么存在
 
 ### 问题张力
@@ -91,6 +95,7 @@ $einstein
 ## 文件结构
 
 ```text
+assets/einstein-laboratory-banner.png # 生成的 README 卷首图
 SKILL.md                                  # 运行时工作流
 agents/openai.yaml                        # Codex 元数据
 references/creative-protocol.md           # 详细创意流程
