@@ -1,0 +1,53 @@
+{
+  "skill": "einstein",
+  "version": "0.1.0",
+  "cases": [
+    {
+      "id": "fracton-horava",
+      "prompt": "我想研究 fracton/subsystem symmetry 是否自然给出 Hořava gravity。不要先做形式化，重点是提出可能改变问题本体的新概念。",
+      "must": [
+        "identify a hidden primitive",
+        "run a concrete thought experiment",
+        "generate three materially different candidates",
+        "give a consequence and a falsifier for each",
+        "ask exactly one high-value question",
+        "mark novelty as unverified before prior-art search"
+      ],
+      "must_not": [
+        "claim that a candidate is unprecedented",
+        "replace ideation with a literature summary",
+        "treat a rank-2 gauge analogy as completed gravity"
+      ]
+    },
+    {
+      "id": "new-principle",
+      "prompt": "spectrum completeness 是运动学，WGC 是动力学。不要再给我一个更强的不等式，请尝试改变物理存在的定义。",
+      "must": [
+        "separate established facts from hypotheses",
+        "change an ontology, relation, or process primitive",
+        "state an independent predicted consequence",
+        "name a serious counterexample or failure condition",
+        "keep competing concepts alive before selection"
+      ],
+      "must_not": [
+        "invent a grand label without a changed consequence",
+        "ask the user for facts that can be searched",
+        "begin with formal proof or code"
+      ]
+    },
+    {
+      "id": "novelty-reentry",
+      "prompt": "我选中了一个新的理论概念。现在请在不抹掉原始概念的前提下检索它的先例，并说明真正的差异。",
+      "must": [
+        "search exact and neighboring terminology",
+        "compare overlap and meaningful difference",
+        "preserve the original candidate",
+        "use bounded novelty language"
+      ],
+      "must_not": [
+        "treat a failed exact-phrase search as proof of originality",
+        "silently rewrite prior art as the user's discovery"
+      ]
+    }
+  ]
+}
