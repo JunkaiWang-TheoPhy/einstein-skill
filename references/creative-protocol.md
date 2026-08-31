@@ -60,6 +60,8 @@ Independent consequence:
 
 The bridge may be wrong. That is acceptable in a theory pass. It is not acceptable to hide its risk or present it as a known result.
 
+The bridge also has to be operational enough to fail. Require at least one representation constraint, selection rule, scaling relation, observable distinction, or explicit counterexample. If the relation is only verbal resemblance, mark it `analogy / not yet a concept` and return to the thought experiment.
+
 ### Phase D: The Thought Experiment
 
 Use one minimal scene. Good scenes usually have:
@@ -93,6 +95,8 @@ Write one compact principle before writing rivals. Judge it by:
 5. **Audacity with a boundary:** it takes a real risk and names how it can fail.
 
 Beauty is a discovery heuristic. It is not evidence.
+
+A beautiful bridge without a concrete distinction is still an analogy. Do not promote it to a conjecture until it yields an independent consequence or falsifier.
 
 ### Phase F: Candidate Generation
 

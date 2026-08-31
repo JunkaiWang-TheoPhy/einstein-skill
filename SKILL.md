@@ -70,7 +70,7 @@ Extrapolation risk: <where the inference may fail>
 Independent consequence: <what the bridge predicts beyond the starting datum>
 ```
 
-For example, an internal charge spectrum having a nontrivial relation to spacetime representations is a candidate local-to-global bridge. Treat it as a conjectural structural relation until checked; do not reduce it to a loose analogy or silently promote it to an established theorem.
+The bridge must end in a concrete distinction: a representation constraint, selection rule, scaling relation, observable, or counterexample that would differ from the old framing. If it has only verbal resemblance, label it `analogy / not yet a concept` and do not promote it to the central conjecture. For example, an internal charge spectrum having a nontrivial relation to spacetime representations is a candidate local-to-global bridge only if it says what representation data are constrained and how the claim could fail. Treat it as a conjectural structural relation until checked; do not silently promote it to an established theorem.
 
 ### 3. Strip the Problem
 
@@ -127,6 +127,8 @@ Choose only the operators that fit the problem:
 - **Change ontology:** replace particles with processes, states with histories, or coordinates with operational relations.
 - **Lift local to global:** test whether a local or internal datum can organize a global, geometric, or representation-level structure.
 - **Choose the beautiful angle:** compare explanations by compression, bridge, generativity, and explicit risk before optimizing for safety.
+
+Reject a bridge that cannot produce a concrete distinction, independent consequence, or falsifier. A poetic correspondence is a prompt for another thought experiment, not yet a scientific concept.
 
 Do not use an operator merely to sound original. It must change the predicted or explainable structure.
 
