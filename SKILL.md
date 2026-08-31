@@ -84,7 +84,7 @@ Use this structure for a normal creative turn:
 下一个问题（只问一个）
 ```
 
-When the user selects a candidate, use the detailed [creative protocol](references/creative-protocol.md), then hand evidence-heavy work to `research-me`. Move to implementation only when the user explicitly requests it. Formalization, simulation, and experiment are downstream discriminators; they should test a concept rather than replace the creative phase.
+When the user selects a candidate, hand the evidence-heavy work to `research-me` or continue in `novelty` mode. Move to implementation only when the user explicitly requests it. Formalization, simulation, and experiment are downstream discriminators; they should test a concept rather than replace the creative phase.
 
 ## Modes
 
@@ -95,4 +95,4 @@ When the user selects a candidate, use the detailed [creative protocol](referenc
 - `novelty`: perform the full prior-art and citation audit.
 - `critique`: try to kill, absorb, or sharpen a candidate.
 
-Use [the concept ledger](references/concept-ledger-template.md) for persistent sessions.
+Use [the creative protocol](references/creative-protocol.md) for detailed prompts and [the concept ledger](references/concept-ledger-template.md) for persistent sessions.
