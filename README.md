@@ -9,11 +9,45 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License: AGPL-3.0"></a>
 </p>
 
-## Overview
+## The Story
 
-Einstein Skill is a concept-invention workflow for scientific and difficult conceptual problems. It first compares the available angles, selects the most beautiful and generative one, tests whether a local fact can organize a global structure, and then helps an agent construct a thought experiment, change the problem's ontology, state a bold conjecture, and identify consequences before prior-art research begins.
+### The tension
 
-This is not an Einstein impersonation prompt. It does not guarantee originality, physical truth, or historical equivalence to Einstein's work. It is a structured way to create ambitious candidates without confusing a new phrase with a new concept.
+AI systems can be very good at local analysis: derive a consequence, summarize a paper, or optimize a calculation. Theory building asks for a different move. A theorist may see several valid angles and care most about the one that explains why two descriptions belong together. For example: why might an internal global charge spectrum have anything to do with a spacetime representation? A flat answer can list the two topics and still miss the question.
+
+### The insight
+
+The valuable leap is often a local-to-global bridge. Local, internal, microscopic, or algebraic data may organize a global, geometric, spacetime, or representation-level structure. The bridge can be wrong. Its value is that it compresses previously separate facts, makes a connection feel less accidental, and creates a new consequence worth trying to break.
+
+### The response
+
+Einstein Skill makes that theory choice explicit. It scans the available angles, selects the one with the strongest combination of compression and generative reach, runs a thought experiment, states one bold conjecture, and only then produces rival explanations and a prior-art audit. Robust analysis and risky extrapolation stay separate. The human supplies physical taste and the acceptable risk; the agent supplies search, comparison, and evidence boundaries.
+
+### The boundary
+
+This is not an Einstein impersonation prompt. It does not guarantee originality, physical truth, or historical equivalence to Einstein's work. It encodes a disciplined way to keep a beautiful conjecture alive long enough to test it without confusing elegance with evidence.
+
+## Research Basis
+
+The design is motivated by the following verified sources. They motivate the workflow; they do not establish that this Skill improves scientific discovery.
+
+| Design question | Reference | What it contributes |
+| --- | --- | --- |
+| What capability is missing between prediction and theory building? | [Shalyt, Regev, Soljačić, and Kaminer, *Can AI Follow In Einstein's Footsteps?* (2026)](https://arxiv.org/abs/2607.27794) | Frames asking the right questions, inventing principles, and proposing falsification tests as a missing part of paradigm-level physics discovery. |
+| What fails when LLM research ideas are evaluated? | [Si, Yang, and Hashimoto, *Can LLMs Generate Novel Research Ideas?* (2024)](https://arxiv.org/abs/2409.04109) | Reports a controlled human study and identifies weaknesses in self-evaluation and diversity, supporting explicit human taste and rival generation. |
+| How can generated research ideas be evaluated? | [Guo et al., *IdeaBench* (2024)](https://arxiv.org/abs/2411.02429) | Separates dimensions such as novelty, feasibility, and insight instead of treating “new” as a single self-reported score. |
+| What is the historical anchor for principle-first theory construction? | [A. Einstein, *Zur Elektrodynamik bewegter Körper* (1905)](https://doi.org/10.1002/andp.19053221004) | Primary source anchor for the historical paper behind the Einstein reference in this Skill's name. |
+
+### References
+
+1. Michael Shalyt, Nathan Regev, Marin Soljačić, and Ido Kaminer, “Can AI Follow In Einstein's Footsteps?”, arXiv:2607.27794 (2026). [arXiv record](https://arxiv.org/abs/2607.27794).
+2. Chenglei Si, Diyi Yang, and Tatsunori Hashimoto, “Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers”, arXiv:2409.04109 (2024). [arXiv record](https://arxiv.org/abs/2409.04109).
+3. Sikun Guo et al., “IdeaBench: Benchmarking Large Language Models for Research Idea Generation”, arXiv:2411.02429 (2024). [arXiv record](https://arxiv.org/abs/2411.02429).
+4. A. Einstein, “Zur Elektrodynamik bewegter Körper”, *Annalen der Physik* (1905). [Publisher record and DOI](https://doi.org/10.1002/andp.19053221004).
+
+## Workflow Overview
+
+The workflow begins with a theoretical choice, then turns that choice into a candidate that can be challenged:
 
 ## Usage
 

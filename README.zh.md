@@ -9,11 +9,45 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="许可证：AGPL-3.0"></a>
 </p>
 
-## 简介
+## 这件事为什么存在
 
-Einstein Skill 是一个面向科学问题和复杂概念问题的创意发明工作流。它先比较问题的多个角度，选出最优美且最有生成力的方向，检查局部事实能否组织整体结构，再帮助 Agent 找到隐藏原语、构造思想实验、改变问题的本体设定、提出大胆猜想，并在开始检索前明确可能的后果。
+### 问题张力
 
-它不是爱因斯坦角色扮演 Prompt，也不保证原创性、物理正确性或与爱因斯坦工作的历史等价性。它提供的是一种更有纪律的创意过程，避免把新措辞误认为新概念。
+AI 很擅长局部分析，可以推导一个后果、总结一篇论文、优化一段计算。理论构造需要另一种动作。理论家往往已经看见了几个都说得通的角度，却更在意其中哪个角度能够解释两种描述为什么属于同一个结构。比如，internal global charge spectrum 为什么可能和 spacetime representation 有关系？如果只是把两个主题并列出来，问题最有意思的部分仍然没有被回答。
+
+### 核心洞见
+
+真正有价值的跃迁经常是一座局域到整体的桥梁。局部、内部、微观或代数数据，可能组织起整体、几何、时空或表示层面的结构。这座桥梁完全可能是错的。它值得追的原因在于，它压缩了原本分开的事实，让联系显得不再偶然，并且产生了一个值得主动击破的新后果。
+
+### Skill 的回应
+
+Einstein Skill 把这个理论选择显式化。它先扫描问题的多个角度，选出压缩力和生成力最强的方向，做思想实验，提出一个大胆猜想，然后才生成竞争性解释并进行先例审计。稳健分析和高风险外推分开呈现。物理品味和可接受的风险由人提供，检索、比较和证据边界由 Agent 完成。
+
+### 边界
+
+它不是爱因斯坦角色扮演 Prompt，也不保证原创性、物理正确性或与爱因斯坦工作的历史等价性。它提供的是一套有纪律的方式，让漂亮的猜想在被检验前保持完整，同时不把优美误当成证据。
+
+## 文献依据
+
+下面的文献支撑这个工作流的设计动机，但不能证明这个 Skill 一定能提高科学发现能力。
+
+| 设计问题 | 文献 | 对本项目的启发 |
+| --- | --- | --- |
+| 从预测走向理论构造，缺少什么能力？ | [Shalyt、Regev、Soljačić 与 Kaminer，*Can AI Follow In Einstein's Footsteps?*（2026）](https://arxiv.org/abs/2607.27794) | 将提出正确问题、发明原则和设计证伪测试概括为范式级物理发现中的关键缺口。 |
+| LLM 生成研究想法时会出现什么问题？ | [Si、Yang 与 Hashimoto，*Can LLMs Generate Novel Research Ideas?*（2024）](https://arxiv.org/abs/2409.04109) | 通过受控的人类评审研究讨论了新颖性、可行性、自我评估和生成多样性，支持保留人的品味并生成竞争性解释。 |
+| 研究想法应当如何评价？ | [Guo 等，*IdeaBench*（2024）](https://arxiv.org/abs/2411.02429) | 将新颖性、可行性和洞见等维度分开，避免把“新”当成模型自报的单一分数。 |
+| 这个名字对应的历史理论锚点是什么？ | [A. Einstein，*Zur Elektrodynamik bewegter Körper*（1905）](https://doi.org/10.1002/andp.19053221004) | 作为 Einstein 名称背后的原始论文来源。 |
+
+### References
+
+1. Michael Shalyt, Nathan Regev, Marin Soljačić, and Ido Kaminer, “Can AI Follow In Einstein's Footsteps?”, arXiv:2607.27794 (2026). [arXiv record](https://arxiv.org/abs/2607.27794).
+2. Chenglei Si, Diyi Yang, and Tatsunori Hashimoto, “Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers”, arXiv:2409.04109 (2024). [arXiv record](https://arxiv.org/abs/2409.04109).
+3. Sikun Guo et al., “IdeaBench: Benchmarking Large Language Models for Research Idea Generation”, arXiv:2411.02429 (2024). [arXiv record](https://arxiv.org/abs/2411.02429).
+4. A. Einstein, “Zur Elektrodynamik bewegter Körper”, *Annalen der Physik* (1905). [Publisher record and DOI](https://doi.org/10.1002/andp.19053221004).
+
+## 工作流概览
+
+这套工作流先做理论选择，再把选择变成一个可以被主动击破的候选：
 
 ## 使用
 
