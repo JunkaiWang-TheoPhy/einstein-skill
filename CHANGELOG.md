@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Renamed the opening narrative headings to `Introduction` and `引言` across the README and PR template.
 - Added a GPT-generated sepia laboratory cover image to both README entrypoints.
 - Documented the reusable local-asset and placement rules for README cover images.
 - Added a story-first pull request template and a literature-reference standard.

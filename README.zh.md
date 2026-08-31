@@ -13,7 +13,7 @@
   <img src="assets/einstein-laboratory-banner.png" alt="棕褐色实验室中观察试管的 Albert Einstein">
 </p>
 
-## 这件事为什么存在
+## 引言
 
 ### 问题张力
 

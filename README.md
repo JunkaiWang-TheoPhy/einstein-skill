@@ -13,7 +13,7 @@
   <img src="assets/einstein-laboratory-banner.png" alt="Albert Einstein studying a test tube in a sepia laboratory">
 </p>
 
-## The Story
+## Introduction
 
 ### The tension
 
