@@ -63,6 +63,8 @@ references/creative-protocol.md           # Detailed ideation procedure
 references/concept-ledger-template.md     # Persistent concept record
 evals/evals.json                          # Behavioral pressure cases
 docs/related-projects.md                  # Public design comparison
+.github/PULL_REQUEST_TEMPLATE.md          # Story-first PR structure and references
+docs/pull-request-story-and-references.md # PR narrative and citation standard
 ```
 
 ## Install

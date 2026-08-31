@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added a story-first pull request template and a literature-reference standard.
+- Required claim-to-source mapping for scientific, research, and conceptual PRs.
+
 ## 0.1.2 - 2026-08-31
 
 - Centered the flag-and-bar language switcher and evidence-backed opening badge row in both README files.
